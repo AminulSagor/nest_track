@@ -1,0 +1,51 @@
+name: nest_track
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0-70.0.dev
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  get: ^4.7.2
+  flutter_svg: ^2.0.9
+  flutter_dotenv: ^5.1.0
+  pin_code_fields: ^8.0.0
+  shared_preferences: ^2.2.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  assets:
+    - assets/images/png/landing_page.png
+    - assets/svg/logo.svg
+    - assets/svg/dropdown.svg
+    - assets/svg/dotted_line.svg
+    - assets/svg/line_login.svg
+    - assets/svg/otp_girl.svg
+    - assets/images/png/otp_circle.png
+    - assets/images/png/reset_icon.png
+    - .env
+
+
+
+
+  uses-material-design: true
+
+
